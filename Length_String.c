@@ -1,12 +1,11 @@
 #include <stdio.h>
+
+#include <string.h> // strlen() function
 int main()
 {
-    char str[10] = "abcde bh";
-    int length = 0;
-    for (int i = 0; str[i] != '\0'; i++) // skip empty
-    {
-        length++;
-    }
+    char str[10] = "abcde bbh";
+   
+    int length=strlen(str); //find out the length of the string 
     printf("%d", length);
 
     return 0;
