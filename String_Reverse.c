@@ -12,5 +12,6 @@ int main()
         str[j] = temp;
     }
     printf("%s", str); ///add
+    printf("%s", str); ///add
     return 0; //
 }
