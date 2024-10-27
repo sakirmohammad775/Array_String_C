@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-    char str[20]="dcba";
+    char str[20]="abaaba";
     int len = strlen(str);
 
     for (int i = 0, j = len - 1; i <= j; i++, j--)
@@ -11,6 +11,6 @@ int main()
         str[i] = str[j];
         str[j] = temp;
     }
-    printf("%s", str);
+    printf("%s", str); ///add
     return 0; //
 }
