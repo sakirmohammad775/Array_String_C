@@ -10,10 +10,7 @@ int main(){
             count++;
 
         }
-        if(count==5){
-            printf("Yes\n");
-            return 0;
-        }
+        
     }
     printf("No\n");
     return 0;
