@@ -6,11 +6,14 @@ int main(){
     for(int i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
+    printf("%d ",a[i]);
     }
     int sum=0;
     for(int i=0;i<n;i++){
         sum+=a[i];
     }
-    printf("%d\n",sum);
+    printf("\n%d\n",sum);
+    float average=sum/n;
+    printf("%.2f\n",average);
     return 0;
 }
