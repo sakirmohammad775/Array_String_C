@@ -8,11 +8,7 @@ int main()
         int x, y;
         scanf("%d %d", &x, &y);
 
-        if(x>y){
-            int temp = x;
-            x = y;
-            y = temp;
-        }
+        
 
         int sum = 0;
 
