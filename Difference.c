@@ -11,6 +11,3 @@ int main()
     printf("%d", difference);
     return 0;
 }
-/*
-
-*/
