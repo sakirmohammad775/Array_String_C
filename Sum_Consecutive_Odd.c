@@ -29,3 +29,7 @@ int main()
 
     return 0;
 }
+/*
+if (strcmp){
+    return str1 - str2;}
+*/
