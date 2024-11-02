@@ -5,6 +5,7 @@ int main(){
     scanf("%s %s",&S,&T);
     int len1=strlen(S);
     int len2=strlen(T);
-    printf("%d %d",len1,len2);
+    printf("%d %d\n",len1,len2);
+    printf("%s %s",S,T);
     return 0;
 }
