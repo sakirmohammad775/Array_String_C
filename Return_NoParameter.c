@@ -5,8 +5,12 @@ int add(){
     int sum=a+b;
     return sum;
 }
+double getPi(){
+    return 3.14159;
+}
 int main(){
     printf("%d\n",add()); //
-    printf("%d",add());
+    printf("%d\n",add());
+    printf("%llf",getPi());
     return 0;
 }
