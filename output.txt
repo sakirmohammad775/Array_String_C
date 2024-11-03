@@ -1,4 +1,2 @@
-Before
-The sum is 10
-After
-The sum is 90
+8
+10
