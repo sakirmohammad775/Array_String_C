@@ -6,7 +6,7 @@ void fun(int i,int n){
     // printf("Before Function Call,Current X: %d\n",i);
     
     fun(i+1,n);
-    printf("After Function Call,Current X:%d\n",i);
+    // printf("After Function Call,Current X:%d\n",i);
 }
 
 int main(){
