@@ -10,7 +10,7 @@ void fun(int i,int n){
 }
 
 int main(){
-    printf("Before Function Call in Main\n");
+    // printf("Before Function Call in Main\n");
     fun(1,5);
     printf("After Function Call in Main");
     return 0;
