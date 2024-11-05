@@ -11,3 +11,9 @@ int recursion(int N){
     }
     return 0;   
 }
+int main(){
+    int N;
+    scanf("%d",&N);
+    recursion(N);
+    return 0;
+}
