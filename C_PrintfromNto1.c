@@ -5,9 +5,6 @@ int recursion(int N){
         if(i>1){
         printf("%d ", i);
     }
-    else{
-        printf("%d", i);
-    }
     }
     return 0;   
 }
