@@ -7,18 +7,18 @@ int main()
     int a[n+5][m+5];
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < m; j++)
         {
-            scanf("%d",a[i][j]);
+            scanf("%d",&a[i][j]);
         }
     }
 
     //output
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < m; j++)
         {
-            printf("a[%d][%d] ", i, j);
+            printf("%d ",a[i][j]);
         }
         printf("\n");
     }
