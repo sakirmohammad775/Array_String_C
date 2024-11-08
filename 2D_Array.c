@@ -12,6 +12,7 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
+    a[0][0]=200;
 
     //output
     for (int i = 0; i < n; i++)
